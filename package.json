@@ -13,7 +13,7 @@
     "cypress:execution": "cypress run --spec 'cypress/e2e/features/*'",
     "clean:cypress": "node cleanup.js",
     "cypress:parallel": "npm run clean:cypress && concurrently 'npm '",
-    "cypress:run:createContactTest": "npx cypress run --spec 'cypress/e2e/features/lexisNexisJobSearchFunction.feature' --headed --browser chrome && node cucumber-html-report.js"
+    "cypress:run:lexisNexisJobSearchFunction": "npx cypress run --spec 'cypress/e2e/features/lexisNexisJobSearchFunction.feature' --headed --browser chrome && node cucumber-html-report.js"
   },
   "keywords": [
     "cypress"
